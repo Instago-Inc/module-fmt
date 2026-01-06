@@ -1,0 +1,17 @@
+{
+  "name": "@instago/fmt",
+  "version": "1.0.1",
+  "description": "Module fmt",
+  "main": "index.js",
+  "type": "commonjs",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "instago",
+    "fmt"
+  ],
+  "files": [
+    "index.js",
+    "ReadMe.MD",
+    "LICENSE"
+  ]
+}
