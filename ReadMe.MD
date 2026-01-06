@@ -1,8 +1,8 @@
 # module/fmt - V8 module
 
-Keep small formatting details out of your workflow steps with two simple helpers for dates and amounts. This module is designed to make everyday outputs more consistent without adding setup overhead.
+Keep workflow outputs tidy with two lightweight formatting helpers. Use them when you want consistent dates and amounts without extra setup.
 
-It fits neatly into the Instago V8 runtime, and you can learn more about the platform at https://instago.ai.
+For more about the Instago platform, visit https://instago.ai.
 
 ## Technical reference
 
@@ -11,7 +11,7 @@ Exports:
 - `fmtAmount(s)`
 
 Usage:
-- `yyyymmdd(d)` returns a UTC date string in `YYYYMMDD` format. If the input is invalid, it falls back to the current date.
+- `yyyymmdd(d)` returns a UTC date string in `YYYYMMDD` format. Invalid inputs fall back to the current date.
 - `fmtAmount(s)` normalizes a numeric input to a two-decimal string, removing non-numeric characters first.
 
 Configuration:
