@@ -1,5 +1,5 @@
-const t = require('utest@1.0.0');
-const fmt = require('fmt@1.0.0');
+const t = require('utest@latest');
+const fmt = require('fmt@latest');
 
 t.test('yyyymmdd', () => {
   t.expect(fmt.yyyymmdd('2023-12-31')).toBe('20231231');

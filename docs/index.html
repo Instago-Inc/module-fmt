@@ -59,13 +59,13 @@
   <body>
     <main>
       <h1>module/fmt - V8 module</h1>
-      <p class="intro">Keep workflow outputs tidy with two lightweight formatting helpers. Use them when you want consistent dates and amounts without extra setup.</p>
+      <p class="intro">Keep workflow outputs tidy with two lightweight formatting helpers for dates and amounts. This module is designed for small, predictable formatting tasks without extra setup.</p>
       <p class="muted">Learn more at <a href="https://instago.ai" target="_blank" rel="noopener">https://instago.ai</a>.</p>
       <div class="section">
         <h2>Technical reference</h2>
         <h1>module/fmt - V8 module</h1>
-<p>Keep workflow outputs tidy with two lightweight formatting helpers. Use them when you want consistent dates and amounts without extra setup.</p>
-<p>For more about the Instago platform, visit https://instago.ai.</p>
+<p>Keep workflow outputs tidy with two lightweight formatting helpers for dates and amounts. This module is designed for small, predictable formatting tasks without extra setup.</p>
+<p>Learn more about Instago at https://instago.ai.</p>
 <h2>Technical reference</h2>
 <p>Exports:</p>
 <ul>
@@ -74,8 +74,8 @@
 </ul>
 <p>Usage:</p>
 <ul>
-<li><code>yyyymmdd(d)</code> returns a UTC date string in <code>YYYYMMDD</code> format. Invalid inputs fall back to the current date.</li>
-<li><code>fmtAmount(s)</code> normalizes a numeric input to a two-decimal string, removing non-numeric characters first.</li>
+<li><code>yyyymmdd(d)</code> returns a UTC date string in <code>YYYYMMDD</code> format. If the input is invalid, it falls back to the current UTC date.</li>
+<li><code>fmtAmount(s)</code> normalizes a numeric input to a two-decimal string, stripping non-numeric characters first.</li>
 </ul>
 <p>Configuration:</p>
 <ul>
@@ -95,10 +95,15 @@ const amountB = fmt.fmtAmount(99);
       <div class="section">
   <h2>Changelog</h2>
   <h2>v1.0.1 - Maintenance release</h2>
-<p>A lightweight patch release with no functional changes, keeping fmt stable and up to date.</p>
+<h2>v1.0.2 - Docs polish</h2>
+<p>Polished the fmt docs and landing page so release notes and intro text stay concise and searchable.</p>
+<h3>Added</h3>
+<ul>
+<li>Added the changelog section to the docs site for easier reference from the landing page.</li>
+</ul>
 <h3>Changed</h3>
 <ul>
-<li>No functional changes since v1.0.0.</li>
+<li>Updated the README and docs wording to highlight lightweight formatting helpers in consistent language.</li>
 </ul>
 </div>
     </main>
